@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Remove Premium Tab",
+    "description": "Removes the Premium tab from the Komoot navbar. Doesn't unlock premium.",
+    "version": "1.0",
+    "target": "de.komoot.android",
+    "tweaks": [
+      {
+        "type": "layout",
+        "id": "bottom_navigation",
+        "remove": "action_premium"
+      }
+    ]
+  }
+]
